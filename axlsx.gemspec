@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   eof
   s.files = Dir.glob("{lib/**/*,examples/**/*.rb,examples/**/*.jpeg}") + %w{ LICENSE README.md Rakefile CHANGELOG.md .yardopts .yardopts_guide }
 
-  s.add_runtime_dependency 'nokogiri', '~> 1.10', '>= 1.10.4'
+  s.add_runtime_dependency 'nokogiri', '~> 1.13', '>= 1.13.10'
   s.add_runtime_dependency 'rubyzip', '>= 1.3.0', '< 3'
   s.add_runtime_dependency "htmlentities", "~> 4.3", '>= 4.3.4'
   s.add_runtime_dependency "marcel", '~> 1.0'
